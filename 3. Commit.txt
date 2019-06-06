@@ -1,0 +1,15 @@
+Now that repository is created:
+how to check hidden files?
+
+ls -la // means list everything	
+
+
+1. make a file.txt and type something
+
+/*TWO STEP PROCESS*/
+
+2. git add . 				//add all the changes we made to our project/repository -- now it knows we added a file to our folder
+
+					/*whenever you are making a commit, you are telling git to save this point in time - or taking a snapshot*/
+
+3. git commit -m  "type any message here which describes what changes you made"

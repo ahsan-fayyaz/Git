@@ -1,0 +1,14 @@
+How to set up username/email in git
+
+git config --global user.name
+git config --global user.email
+
+
+
+for help use: 
+git help
+
+
+further e.g
+
+git help commit

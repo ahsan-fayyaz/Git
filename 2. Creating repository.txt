@@ -1,0 +1,11 @@
+repository == project
+
+1. Go to your directory
+2. Type git init
+
+Initialized empty Git repository...
+means start git project
+
+
+now there are no visual changes to the directory
+however, git will track changes to everything in this folder

@@ -1,0 +1,23 @@
+-how to view your commit history?
+
+git log
+/*displays all the commits*/
+
+
+-how to view commit history from a certain person?
+
+git log --author="name"
+/*only the first name is enough*/
+
+
+how to check your latest changes to your files are up-to-date with git?
+
+git status
+/*shows a message if anything to commmit*/
+
+
+-make two more files
+
+now run git status again
+
+it will show that git isn't keeping track of two new files since they aren't committed
