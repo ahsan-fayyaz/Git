@@ -1,0 +1,30 @@
+after adding the two new files, both of them weren't being tracked by git
+
+our two new files had names project2 and project 3
+
+-how to add those so git can track them?
+
+
+process: working area > staging area > repository
+
+-command = git add project2.txt
+/*this will send the files to staging area, there you can 
+git commit -m "message" to add them to repository*/
+
+-command = git status: 	it shows that project2.txt not committed yet
+			also shows project3.txt is not added yet
+
+-command = git commit -m "adding second file"
+/*what it does is that whatever is in staging area (project2.txt) it just pushes that into repository*/
+
+
+
+
+
+HOWEVER, the project3.txt is still sitting there if you type git status because it wasn't added
+
+-command = git add project3.txt /*now its in staging area*/
+-command = git commit -m "committing the third file"  
+
+
+use git status to check

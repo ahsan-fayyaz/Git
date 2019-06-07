@@ -1,0 +1,24 @@
+now we make changes to project1.txt
+update it with more text.
+
+how to tell git that this is the new file we want in our project now
+
+
+-command = git status
+/*it shows that the project1.txt file is modified*/
+
+
+-command = git add project1.txt /*added to staging area, ready to be committed*/
+-command = git commit -m "this is the second commit to project1.txt"
+/*now git has access to the latest */
+
+
+
+
+NOW MAKE CHANGES TO project2.txt and project3.txt
+how to commit both at same time?
+
+-command = git add .
+/*add all the files to the staging area*/
+
+-command = git commit -m "this is how you commit mutiple files at the same time"

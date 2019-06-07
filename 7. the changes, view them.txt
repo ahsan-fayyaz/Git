@@ -1,0 +1,33 @@
+how to check changes between your working files and the changes saved in the git repository
+
+for example:
+go to project1.txt
+make changes.
+
+and now the changes in working are different from the ones you committed to git repository.. how to view them?
+
+- command = git status
+- command = git diff
+/*will show what exact changes are between working file and committed to repository
+red one = the changes committed
+green 	= the changes you made to working file */
+
+
+-command = git add project1.txt
+-command = git commit -m "type a message here"  // changes committed
+
+
+-command = git diff
+
+no changes appear	
+
+
+
+WHAT IF WE MADE CHANGES TO project2.txt and project3.txt at the same time?
+
+
+git status
+git diff // check the changes
+
+git add .
+git commit -m "type message"
