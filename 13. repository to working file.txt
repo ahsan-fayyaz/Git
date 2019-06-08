@@ -1,0 +1,5 @@
+suppose we messed up our file, but before that we had commit the changes to repository
+
+how to get the good files from git repository to our file
+
+run git checkout -- index.html // which is a filename

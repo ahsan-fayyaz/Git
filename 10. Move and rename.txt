@@ -1,0 +1,35 @@
+suppose:  rename the file project1.txt --> home.txt
+
+run git status: git says you removed project1.txt, and made a new file home.txt
+/*just another way to check things*/
+
+
+run git add home.txt
+run git rm project1.txt
+
+run git status
+/*now it realizes its only the name that changed*/
+
+run git commit -m "just renamed the file"
+
+
+----there is an easy way to rename files-----
+
+
+moving means same as renaming the files in git
+
+run git mv project2.txt pudding.txt
+/*it is same as renaming project2 to pudding.txt*/
+
+
+
+
+
+
+----Create a folder named LoveNotes inside the current directory----
+----need to move pudding.txt to LoveNotes director----
+----at the same time also rename the pudding.txt file to patty.txt----
+
+
+git mv pudding.txt LoveNotes/patty.txt
+

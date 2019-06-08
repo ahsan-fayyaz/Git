@@ -1,0 +1,8 @@
+how to commit directly from your working copy to your git repository
+
+
+
+make some changes to files
+
+run git commit -am "this is changes to the files"
+/*this is a shortcut which skips the staging area*/

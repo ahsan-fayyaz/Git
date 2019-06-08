@@ -1,0 +1,16 @@
+these are the commits:
+
+first > second > third 
+/*suppose after third commit we wanna go back to second commit somehow without
+deleting the third commit so that it looks like this:*/
+
+first > second > third > second
+/*never delete third commit, git saves changed at a point in time, so 
+instead just copy second, and put it next after third
+so it looks like a linear workflow*/
+
+
+git checkout *insert a few letters from git digits of the commit* -- filename.txt
+
+
+commit changes: git commit am- "back to old version"

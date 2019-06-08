@@ -1,0 +1,7 @@
+how to add to your github
+
+git remote add *nickname* url
+
+git push -u *nickname* master
+
+username and pw

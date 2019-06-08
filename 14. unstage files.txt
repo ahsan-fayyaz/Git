@@ -1,0 +1,5 @@
+suppose you bring files to staging area
+then for any reason decide you don't want to commit them
+so want to move back to working files:
+
+git reset HEAD filename.html 

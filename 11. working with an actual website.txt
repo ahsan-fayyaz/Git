@@ -1,0 +1,8 @@
+just unzip the files into a new folder
+
+run git init to create repository
+run git add . to add files
+run git commit -m "message"
+
+
+that's all

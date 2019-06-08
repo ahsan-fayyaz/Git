@@ -1,0 +1,7 @@
+delete from files, and from repository as well
+
+-command: git rm project3.txt
+
+also commit changes:
+
+-command: git commit -m "messages"
