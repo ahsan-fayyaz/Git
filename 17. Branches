@@ -1,0 +1,9 @@
+How to create branches?
+
+
+1. git branch [name]
+2. git checkout [name]
+
+
+// git checkout makes the pointer to that specific branch and now whatver commits we make,
+// those commits are made in our new branch

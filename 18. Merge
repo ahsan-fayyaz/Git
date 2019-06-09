@@ -1,0 +1,7 @@
+How to merge two branches?
+
+
+1. git merge [name]
+
+// make sure the the [name] here is of the branch you wanna merge with the branch
+// you are pointing currently i.e master
